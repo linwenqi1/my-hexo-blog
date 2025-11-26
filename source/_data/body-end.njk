@@ -1,0 +1,8 @@
+<script>
+  // 自动移除 URL 中的 highlight 参数
+  if (window.location.search.includes('highlight=')) {
+    const url = new URL(window.location.href);
+    url.searchParams.delete('highlight');
+    window.history.replaceState({}, document.title, url.pathname + url.hash);
+  }
+</script>

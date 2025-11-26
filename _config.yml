@@ -1,0 +1,67 @@
+# 站点信息
+title: My Blog
+subtitle: 'Recording Technology and Life'
+description: 'A blog focused on technology sharing'
+keywords: Technology, Programming, Blog
+author: Lin Wenqi
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL 配置
+url: https://linwenqi1.github.io/
+root: /my-hexo-blog
+permalink: :year/:month/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+# 目录配置
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# 写作配置
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+# 分页配置
+per_page: 10
+pagination_dir: page
+
+# 主题配置
+theme: next
+
+deploy:
+  type: git
+  repo: git@github.com:linwenqi1/my-hexo-blog.git
+  branch: gh-pages
