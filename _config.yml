@@ -9,7 +9,7 @@ timezone: Asia/Shanghai
 
 # URL 配置
 url: https://linwenqi1.github.io/
-root: /my-hexo-blog
+root: /
 permalink: :year/:month/:title/
 permalink_defaults:
 pretty_urls:
@@ -63,5 +63,5 @@ theme: next
 
 deploy:
   type: git
-  repo: git@github.com:linwenqi1/my-hexo-blog.git
-  branch: gh-pages
+  repo: git@github.com:linwenqi1/linwenqi1.github.io.git
+  branch: main

@@ -1,0 +1,444 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1114pt" height="1323pt" viewBox="0.00 0.00 1114.00 1323.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1318.8)">
+<title>LR0_Automaton</title>
+<polygon fill="#ffffff" stroke="none" points="-4,4 -4,-1318.8 1109.77,-1318.8 1109.77,4 -4,4"/>
+<!-- I0 -->
+<g id="node1" class="node">
+<title>I0</title>
+<polygon fill="#fff8e7" stroke="none" points="0,-834.8 0,-1035.2 65.6,-1035.2 65.6,-834.8 0,-834.8"/>
+<polygon fill="#ffe4b5" stroke="none" points="1,-1009.4 1,-1034.2 64.6,-1034.2 64.6,-1009.4 1,-1009.4"/>
+<text xml:space="preserve" text-anchor="start" x="5" y="-1018.6" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I0 (Start)</text>
+<text xml:space="preserve" text-anchor="start" x="5" y="-992.8" font-family="Arial, Helvetica, sans-serif" font-size="14.00">E' → •E</text>
+<text xml:space="preserve" text-anchor="start" x="5" y="-969" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">E → •TX</text>
+<text xml:space="preserve" text-anchor="start" x="5" y="-944.2" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">T → •FY</text>
+<text xml:space="preserve" text-anchor="start" x="5" y="-919.4" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">F → •PZ</text>
+<text xml:space="preserve" text-anchor="start" x="5" y="-894.6" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">P → •(E)</text>
+<text xml:space="preserve" text-anchor="start" x="5" y="-869.8" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">P → •a</text>
+<text xml:space="preserve" text-anchor="start" x="5" y="-845" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">P → •b</text>
+<polygon fill="none" stroke="black" points="0,-834.8 0,-1035.2 65.6,-1035.2 65.6,-834.8 0,-834.8"/>
+</g>
+<!-- I1 -->
+<g id="node2" class="node">
+<title>I1</title>
+<polygon fill="#e6ffed" stroke="none" points="130.93,-1261.2 130.93,-1314.8 209.41,-1314.8 209.41,-1261.2 130.93,-1261.2"/>
+<polygon fill="#c8e6c9" stroke="none" points="132.93,-1288 132.93,-1312.8 207.41,-1312.8 207.41,-1288 132.93,-1288"/>
+<text xml:space="preserve" text-anchor="start" x="136.93" y="-1297.2" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I1 (Accept)</text>
+<text xml:space="preserve" text-anchor="start" x="136.93" y="-1272.4" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">E' → E•</text>
+<polygon fill="none" stroke="black" stroke-width="2" points="131.93,-1262.2 131.93,-1313.8 208.41,-1313.8 208.41,-1262.2 131.93,-1262.2"/>
+</g>
+<!-- I0&#45;&gt;I1 -->
+<g id="edge1" class="edge">
+<title>I0-&gt;I1</title>
+<path fill="none" stroke="black" stroke-width="2" d="M54.55,-1035.01C72.16,-1119.89 94.6,-1228 94.6,-1228 94.6,-1228 110.6,-1240.88 127.78,-1254.7"/>
+<polygon fill="black" stroke="black" stroke-width="2" points="125.9,-1256.78 133.89,-1259.61 129.41,-1252.41 125.9,-1256.78"/>
+<text xml:space="preserve" text-anchor="middle" x="98.27" y="-1236.43" font-family="Arial" font-size="11.00">E</text>
+</g>
+<!-- I2 -->
+<g id="node3" class="node">
+<title>I2</title>
+<polygon fill="#fff8e7" stroke="none" points="137.56,-670.4 137.56,-771.6 202.78,-771.6 202.78,-670.4 137.56,-670.4"/>
+<polygon fill="#ffe4b5" stroke="none" points="138.56,-745.8 138.56,-770.6 201.78,-770.6 201.78,-745.8 138.56,-745.8"/>
+<text xml:space="preserve" text-anchor="start" x="163.95" y="-755" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I2</text>
+<text xml:space="preserve" text-anchor="start" x="142.56" y="-729.2" font-family="Arial, Helvetica, sans-serif" font-size="14.00">E → T•X</text>
+<text xml:space="preserve" text-anchor="start" x="142.56" y="-705.4" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">X → •+E</text>
+<text xml:space="preserve" text-anchor="start" x="142.56" y="-680.6" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">X → •ε</text>
+<polygon fill="none" stroke="black" points="137.56,-670.4 137.56,-771.6 202.78,-771.6 202.78,-670.4 137.56,-670.4"/>
+</g>
+<!-- I0&#45;&gt;I2 -->
+<g id="edge2" class="edge">
+<title>I0-&gt;I2</title>
+<path fill="none" stroke="black" d="M65.54,-884.83C85.65,-853.03 111.73,-811.81 132.69,-778.66"/>
+<polygon fill="black" stroke="black" points="134.91,-780.4 136.82,-772.14 130.18,-777.4 134.91,-780.4"/>
+<text xml:space="preserve" text-anchor="middle" x="98.27" y="-837.72" font-family="Arial" font-size="11.00">T</text>
+</g>
+<!-- I3 -->
+<g id="node4" class="node">
+<title>I3</title>
+<polygon fill="#fff8e7" stroke="none" points="430.75,-245.4 430.75,-470.6 495.2,-470.6 495.2,-245.4 430.75,-245.4"/>
+<polygon fill="#ffe4b5" stroke="none" points="431.75,-444.8 431.75,-469.6 494.2,-469.6 494.2,-444.8 431.75,-444.8"/>
+<text xml:space="preserve" text-anchor="start" x="456.75" y="-454" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I3</text>
+<text xml:space="preserve" text-anchor="start" x="435.75" y="-428.2" font-family="Arial, Helvetica, sans-serif" font-size="14.00">T → F•Y</text>
+<text xml:space="preserve" text-anchor="start" x="435.75" y="-404.4" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">Y → •T</text>
+<text xml:space="preserve" text-anchor="start" x="435.75" y="-379.6" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">Y → •ε</text>
+<text xml:space="preserve" text-anchor="start" x="435.75" y="-354.8" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">T → •FY</text>
+<text xml:space="preserve" text-anchor="start" x="435.75" y="-330" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">F → •PZ</text>
+<text xml:space="preserve" text-anchor="start" x="435.75" y="-305.2" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">P → •(E)</text>
+<text xml:space="preserve" text-anchor="start" x="435.75" y="-280.4" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">P → •a</text>
+<text xml:space="preserve" text-anchor="start" x="435.75" y="-255.6" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">P → •b</text>
+<polygon fill="none" stroke="black" points="430.75,-245.4 430.75,-470.6 495.2,-470.6 495.2,-245.4 430.75,-245.4"/>
+</g>
+<!-- I0&#45;&gt;I3 -->
+<g id="edge3" class="edge">
+<title>I0-&gt;I3</title>
+<path fill="none" stroke="black" d="M65.47,-841.75C93.82,-758.29 130.93,-649 130.93,-649 130.93,-649 274.74,-444 274.74,-444 274.74,-444 367.67,-401.32 422.59,-376.09"/>
+<polygon fill="black" stroke="black" points="423.58,-378.72 429.68,-372.83 421.24,-373.63 423.58,-378.72"/>
+<text xml:space="preserve" text-anchor="middle" x="242.07" y="-497.67" font-family="Arial" font-size="11.00">F</text>
+</g>
+<!-- I4 -->
+<g id="node5" class="node">
+<title>I4</title>
+<polygon fill="#fff8e7" stroke="none" points="732.28,-584.4 732.28,-685.6 794.4,-685.6 794.4,-584.4 732.28,-584.4"/>
+<polygon fill="#ffe4b5" stroke="none" points="733.28,-659.8 733.28,-684.6 793.4,-684.6 793.4,-659.8 733.28,-659.8"/>
+<text xml:space="preserve" text-anchor="start" x="757.12" y="-669" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I4</text>
+<text xml:space="preserve" text-anchor="start" x="737.28" y="-643.2" font-family="Arial, Helvetica, sans-serif" font-size="14.00">F → P•Z</text>
+<text xml:space="preserve" text-anchor="start" x="737.28" y="-619.4" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">Z → •*Z</text>
+<text xml:space="preserve" text-anchor="start" x="737.28" y="-594.6" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">Z → •ε</text>
+<polygon fill="none" stroke="black" points="732.28,-584.4 732.28,-685.6 794.4,-685.6 794.4,-584.4 732.28,-584.4"/>
+</g>
+<!-- I0&#45;&gt;I4 -->
+<g id="edge4" class="edge">
+<title>I0-&gt;I4</title>
+<path fill="none" stroke="black" d="M65.54,-975.8C105.55,-1027.22 169.17,-1109 169.17,-1109 169.17,-1109 169.17,-1109 388.01,-1109 388.01,-1109 658.21,-979 658.21,-979 658.21,-979 714.59,-792.75 744.38,-694.34"/>
+<polygon fill="black" stroke="black" points="747.01,-695.31 746.65,-686.84 741.65,-693.68 747.01,-695.31"/>
+<text xml:space="preserve" text-anchor="middle" x="387.01" y="-1112.3" font-family="Arial" font-size="11.00">P</text>
+</g>
+<!-- I5 -->
+<g id="node6" class="node">
+<title>I5</title>
+<polygon fill="#fff8e7" stroke="none" points="582.69,-725.8 582.69,-926.2 647.12,-926.2 647.12,-725.8 582.69,-725.8"/>
+<polygon fill="#ffe4b5" stroke="none" points="583.69,-900.4 583.69,-925.2 646.12,-925.2 646.12,-900.4 583.69,-900.4"/>
+<text xml:space="preserve" text-anchor="start" x="608.68" y="-909.6" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I5</text>
+<text xml:space="preserve" text-anchor="start" x="587.69" y="-883.8" font-family="Arial, Helvetica, sans-serif" font-size="14.00">P → (•E)</text>
+<text xml:space="preserve" text-anchor="start" x="587.69" y="-860" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">E → •TX</text>
+<text xml:space="preserve" text-anchor="start" x="587.69" y="-835.2" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">T → •FY</text>
+<text xml:space="preserve" text-anchor="start" x="587.69" y="-810.4" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">F → •PZ</text>
+<text xml:space="preserve" text-anchor="start" x="587.69" y="-785.6" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">P → •(E)</text>
+<text xml:space="preserve" text-anchor="start" x="587.69" y="-760.8" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">P → •a</text>
+<text xml:space="preserve" text-anchor="start" x="587.69" y="-736" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">P → •b</text>
+<polygon fill="none" stroke="black" points="582.69,-725.8 582.69,-926.2 647.12,-926.2 647.12,-725.8 582.69,-725.8"/>
+</g>
+<!-- I0&#45;&gt;I5 -->
+<g id="edge5" class="edge">
+<title>I0-&gt;I5</title>
+<path fill="none" stroke="black" d="M65.54,-935C105.55,-935 169.17,-935 169.17,-935 169.17,-935 169.17,-935 463.98,-935 463.98,-935 530.95,-886.31 575.38,-854.01"/>
+<polygon fill="black" stroke="black" points="576.79,-856.44 581.62,-849.47 573.5,-851.91 576.79,-856.44"/>
+<text xml:space="preserve" text-anchor="middle" x="314.54" y="-938.3" font-family="Arial" font-size="11.00">(</text>
+</g>
+<!-- I6 -->
+<g id="node7" class="node">
+<title>I6</title>
+<polygon fill="#e3f2fd" stroke="none" points="723.54,-1052.2 723.54,-1103.8 803.14,-1103.8 803.14,-1052.2 723.54,-1052.2"/>
+<polygon fill="#bbdefb" stroke="none" points="724.54,-1078 724.54,-1102.8 802.14,-1102.8 802.14,-1078 724.54,-1078"/>
+<text xml:space="preserve" text-anchor="start" x="728.54" y="-1087.2" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I6 (Reduce)</text>
+<text xml:space="preserve" text-anchor="start" x="728.54" y="-1061.4" font-family="Arial, Helvetica, sans-serif" font-size="14.00">P → a•</text>
+<polygon fill="none" stroke="black" points="723.54,-1052.2 723.54,-1103.8 803.14,-1103.8 803.14,-1052.2 723.54,-1052.2"/>
+</g>
+<!-- I0&#45;&gt;I6 -->
+<g id="edge6" class="edge">
+<title>I0-&gt;I6</title>
+<path fill="none" stroke="black" d="M63.31,-1034.98C78.8,-1087.47 94.6,-1141 94.6,-1141 94.6,-1141 169.17,-1196 169.17,-1196 169.17,-1196 169.17,-1196 615.91,-1196 615.91,-1196 679.88,-1144.45 723.26,-1109.49"/>
+<polygon fill="black" stroke="black" points="724.92,-1111.75 729.39,-1104.55 721.4,-1107.39 724.92,-1111.75"/>
+<text xml:space="preserve" text-anchor="middle" x="387.01" y="-1199.3" font-family="Arial" font-size="11.00">a</text>
+</g>
+<!-- I7 -->
+<g id="node8" class="node">
+<title>I7</title>
+<polygon fill="#e3f2fd" stroke="none" points="723.54,-115.2 723.54,-166.8 803.14,-166.8 803.14,-115.2 723.54,-115.2"/>
+<polygon fill="#bbdefb" stroke="none" points="724.54,-141 724.54,-165.8 802.14,-165.8 802.14,-141 724.54,-141"/>
+<text xml:space="preserve" text-anchor="start" x="728.54" y="-150.2" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I7 (Reduce)</text>
+<text xml:space="preserve" text-anchor="start" x="728.54" y="-124.4" font-family="Arial, Helvetica, sans-serif" font-size="14.00">P → b•</text>
+<polygon fill="none" stroke="black" points="723.54,-115.2 723.54,-166.8 803.14,-166.8 803.14,-115.2 723.54,-115.2"/>
+</g>
+<!-- I0&#45;&gt;I7 -->
+<g id="edge7" class="edge">
+<title>I0-&gt;I7</title>
+<path fill="none" stroke="black" d="M48.29,-834.94C83.21,-593.73 169.17,0 169.17,0 169.17,0 169.17,0 615.91,0 615.91,0 685.93,-67.43 729.14,-109.03"/>
+<polygon fill="black" stroke="black" points="727.03,-110.88 734.73,-114.42 730.91,-106.85 727.03,-110.88"/>
+<text xml:space="preserve" text-anchor="middle" x="387.01" y="-3.3" font-family="Arial" font-size="11.00">b</text>
+</g>
+<!-- I8 -->
+<g id="node9" class="node">
+<title>I8</title>
+<polygon fill="#e3f2fd" stroke="none" points="274.74,-465.2 274.74,-516.8 354.34,-516.8 354.34,-465.2 274.74,-465.2"/>
+<polygon fill="#bbdefb" stroke="none" points="275.74,-491 275.74,-515.8 353.34,-515.8 353.34,-491 275.74,-491"/>
+<text xml:space="preserve" text-anchor="start" x="279.74" y="-500.2" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I8 (Reduce)</text>
+<text xml:space="preserve" text-anchor="start" x="279.74" y="-474.4" font-family="Arial, Helvetica, sans-serif" font-size="14.00">E → TX•</text>
+<polygon fill="none" stroke="black" points="274.74,-465.2 274.74,-516.8 354.34,-516.8 354.34,-465.2 274.74,-465.2"/>
+</g>
+<!-- I2&#45;&gt;I8 -->
+<g id="edge8" class="edge">
+<title>I2-&gt;I8</title>
+<path fill="none" stroke="black" d="M199.75,-670.51C230.4,-616.34 274.74,-538 274.74,-538 274.74,-538 279.95,-531.7 286.54,-523.71"/>
+<polygon fill="black" stroke="black" points="288.43,-525.82 291.36,-517.87 284.11,-522.25 288.43,-525.82"/>
+<text xml:space="preserve" text-anchor="middle" x="242.07" y="-600.49" font-family="Arial" font-size="11.00">X</text>
+</g>
+<!-- I9 -->
+<g id="node10" class="node">
+<title>I9</title>
+<polygon fill="#fff8e7" stroke="none" points="282.26,-559.8 282.26,-760.2 346.82,-760.2 346.82,-559.8 282.26,-559.8"/>
+<polygon fill="#ffe4b5" stroke="none" points="283.26,-734.4 283.26,-759.2 345.82,-759.2 345.82,-734.4 283.26,-734.4"/>
+<text xml:space="preserve" text-anchor="start" x="308.32" y="-743.6" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I9</text>
+<text xml:space="preserve" text-anchor="start" x="287.26" y="-717.8" font-family="Arial, Helvetica, sans-serif" font-size="14.00">X → +•E</text>
+<text xml:space="preserve" text-anchor="start" x="287.26" y="-694" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">E → •TX</text>
+<text xml:space="preserve" text-anchor="start" x="287.26" y="-669.2" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">T → •FY</text>
+<text xml:space="preserve" text-anchor="start" x="287.26" y="-644.4" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">F → •PZ</text>
+<text xml:space="preserve" text-anchor="start" x="287.26" y="-619.6" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">P → •(E)</text>
+<text xml:space="preserve" text-anchor="start" x="287.26" y="-594.8" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">P → •a</text>
+<text xml:space="preserve" text-anchor="start" x="287.26" y="-570" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">P → •b</text>
+<polygon fill="none" stroke="black" points="282.26,-559.8 282.26,-760.2 346.82,-760.2 346.82,-559.8 282.26,-559.8"/>
+</g>
+<!-- I2&#45;&gt;I9 -->
+<g id="edge9" class="edge">
+<title>I2-&gt;I9</title>
+<path fill="none" stroke="black" d="M202.77,-707.46C223.74,-698.48 251.44,-686.61 273.89,-676.99"/>
+<polygon fill="black" stroke="black" points="274.88,-679.61 281.13,-673.89 272.68,-674.46 274.88,-679.61"/>
+<text xml:space="preserve" text-anchor="middle" x="242.07" y="-693.8" font-family="Arial" font-size="11.00">+</text>
+</g>
+<!-- I3&#45;&gt;I3 -->
+<g id="edge12" class="edge">
+<title>I3-&gt;I3</title>
+<path fill="none" stroke="#555555" d="M449.11,-470.6C450.42,-495.48 455.04,-513.6 462.98,-513.6 469.89,-513.6 474.29,-499.85 476.17,-479.86"/>
+<polygon fill="#555555" stroke="#555555" points="478.94,-480.29 476.73,-472.11 473.36,-479.88 478.94,-480.29"/>
+<text xml:space="preserve" text-anchor="middle" x="462.98" y="-516.9" font-family="Arial" font-size="11.00" fill="#555555">F</text>
+</g>
+<!-- I3&#45;&gt;I4 -->
+<g id="edge13" class="edge">
+<title>I3-&gt;I4</title>
+<path fill="none" stroke="black" d="M495.11,-345.79C526.9,-333.33 571.61,-315.8 571.61,-315.8 571.61,-315.8 658.21,-315.8 658.21,-315.8 658.21,-315.8 712.78,-483.09 742.92,-575.45"/>
+<polygon fill="black" stroke="black" points="740.23,-576.25 745.37,-582.98 745.55,-574.51 740.23,-576.25"/>
+<text xml:space="preserve" text-anchor="middle" x="614.91" y="-319.1" font-family="Arial" font-size="11.00">P</text>
+</g>
+<!-- I3&#45;&gt;I5 -->
+<g id="edge14" class="edge">
+<title>I3-&gt;I5</title>
+<path fill="none" stroke="black" d="M487.32,-470.31C508.11,-570.34 535.27,-701 535.27,-701 535.27,-701 557.19,-735.85 577.89,-768.74"/>
+<polygon fill="black" stroke="black" points="575.39,-770.03 582.02,-775.32 580.13,-767.05 575.39,-770.03"/>
+<text xml:space="preserve" text-anchor="middle" x="538.94" y="-714.99" font-family="Arial" font-size="11.00">(</text>
+</g>
+<!-- I3&#45;&gt;I6 -->
+<g id="edge15" class="edge">
+<title>I3-&gt;I6</title>
+<path fill="none" stroke="black" d="M495.14,-458.11C514.33,-519.73 535.27,-587 535.27,-587 535.27,-587 658.21,-690.8 658.21,-690.8 658.21,-690.8 687.21,-849 687.21,-849 687.21,-849 730.13,-979.81 751.09,-1043.7"/>
+<polygon fill="black" stroke="black" points="748.39,-1044.45 753.54,-1051.18 753.71,-1042.71 748.39,-1044.45"/>
+<text xml:space="preserve" text-anchor="middle" x="614.91" y="-694.1" font-family="Arial" font-size="11.00">a</text>
+</g>
+<!-- I3&#45;&gt;I7 -->
+<g id="edge16" class="edge">
+<title>I3-&gt;I7</title>
+<path fill="none" stroke="black" d="M495.04,-316.17C514.25,-290.3 535.27,-262 535.27,-262 535.27,-262 571.61,-227.8 571.61,-227.8 571.61,-227.8 658.83,-188.11 715.31,-162.41"/>
+<polygon fill="black" stroke="black" points="716.25,-165.05 722.37,-159.19 713.93,-159.96 716.25,-165.05"/>
+<text xml:space="preserve" text-anchor="middle" x="614.91" y="-231.1" font-family="Arial" font-size="11.00">b</text>
+</g>
+<!-- I10 -->
+<g id="node11" class="node">
+<title>I10</title>
+<polygon fill="#e3f2fd" stroke="none" points="571.61,-445.2 571.61,-496.8 658.21,-496.8 658.21,-445.2 571.61,-445.2"/>
+<polygon fill="#bbdefb" stroke="none" points="572.61,-471 572.61,-495.8 657.21,-495.8 657.21,-471 572.61,-471"/>
+<text xml:space="preserve" text-anchor="start" x="576.61" y="-480.2" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I10 (Reduce)</text>
+<text xml:space="preserve" text-anchor="start" x="576.61" y="-454.4" font-family="Arial, Helvetica, sans-serif" font-size="14.00">T → FY•</text>
+<polygon fill="none" stroke="black" points="571.61,-445.2 571.61,-496.8 658.21,-496.8 658.21,-445.2 571.61,-445.2"/>
+</g>
+<!-- I3&#45;&gt;I10 -->
+<g id="edge10" class="edge">
+<title>I3-&gt;I10</title>
+<path fill="none" stroke="black" d="M495.04,-381.41C517.43,-398.29 547.88,-421.24 572.36,-439.68"/>
+<polygon fill="black" stroke="black" points="570.46,-441.76 578.54,-444.34 573.83,-437.29 570.46,-441.76"/>
+<text xml:space="preserve" text-anchor="middle" x="538.94" y="-417.8" font-family="Arial" font-size="11.00">Y</text>
+</g>
+<!-- I11 -->
+<g id="node12" class="node">
+<title>I11</title>
+<polygon fill="#e3f2fd" stroke="none" points="571.61,-350.2 571.61,-401.8 658.21,-401.8 658.21,-350.2 571.61,-350.2"/>
+<polygon fill="#bbdefb" stroke="none" points="572.61,-376 572.61,-400.8 657.21,-400.8 657.21,-376 572.61,-376"/>
+<text xml:space="preserve" text-anchor="start" x="576.61" y="-385.2" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I11 (Reduce)</text>
+<text xml:space="preserve" text-anchor="start" x="576.61" y="-359.4" font-family="Arial, Helvetica, sans-serif" font-size="14.00">Y → T•</text>
+<polygon fill="none" stroke="black" points="571.61,-350.2 571.61,-401.8 658.21,-401.8 658.21,-350.2 571.61,-350.2"/>
+</g>
+<!-- I3&#45;&gt;I11 -->
+<g id="edge11" class="edge">
+<title>I3-&gt;I11</title>
+<path fill="none" stroke="black" d="M495.04,-361.73C514.48,-364.06 540,-367.13 562.41,-369.82"/>
+<polygon fill="black" stroke="black" points="562.01,-372.59 570.29,-370.76 562.68,-367.03 562.01,-372.59"/>
+<text xml:space="preserve" text-anchor="middle" x="538.94" y="-370.3" font-family="Arial" font-size="11.00">T</text>
+</g>
+<!-- I12 -->
+<g id="node13" class="node">
+<title>I12</title>
+<polygon fill="#e3f2fd" stroke="none" points="867.86,-657.2 867.86,-708.8 954.46,-708.8 954.46,-657.2 867.86,-657.2"/>
+<polygon fill="#bbdefb" stroke="none" points="868.86,-683 868.86,-707.8 953.46,-707.8 953.46,-683 868.86,-683"/>
+<text xml:space="preserve" text-anchor="start" x="872.86" y="-692.2" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I12 (Reduce)</text>
+<text xml:space="preserve" text-anchor="start" x="872.86" y="-666.4" font-family="Arial, Helvetica, sans-serif" font-size="14.00">F → PZ•</text>
+<polygon fill="none" stroke="black" points="867.86,-657.2 867.86,-708.8 954.46,-708.8 954.46,-657.2 867.86,-657.2"/>
+</g>
+<!-- I4&#45;&gt;I12 -->
+<g id="edge17" class="edge">
+<title>I4-&gt;I12</title>
+<path fill="none" stroke="black" d="M794.2,-644.83C812.88,-650.98 837.42,-659.06 859.12,-666.2"/>
+<polygon fill="black" stroke="black" points="857.99,-668.77 866.46,-668.62 859.74,-663.46 857.99,-668.77"/>
+<text xml:space="preserve" text-anchor="middle" x="835.5" y="-662.3" font-family="Arial" font-size="11.00">Z</text>
+</g>
+<!-- I13 -->
+<g id="node14" class="node">
+<title>I13</title>
+<polygon fill="#fff8e7" stroke="none" points="880.11,-481.4 880.11,-582.6 942.21,-582.6 942.21,-481.4 880.11,-481.4"/>
+<polygon fill="#ffe4b5" stroke="none" points="881.11,-556.8 881.11,-581.6 941.21,-581.6 941.21,-556.8 881.11,-556.8"/>
+<text xml:space="preserve" text-anchor="start" x="901.43" y="-566" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I13</text>
+<text xml:space="preserve" text-anchor="start" x="885.11" y="-540.2" font-family="Arial, Helvetica, sans-serif" font-size="14.00">Z → *•Z</text>
+<text xml:space="preserve" text-anchor="start" x="885.11" y="-516.4" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">Z → •*Z</text>
+<text xml:space="preserve" text-anchor="start" x="885.11" y="-491.6" font-family="Arial, Helvetica, sans-serif" font-style="italic" font-size="14.00" fill="#555555">Z → •ε</text>
+<polygon fill="none" stroke="black" points="880.11,-481.4 880.11,-582.6 942.21,-582.6 942.21,-481.4 880.11,-481.4"/>
+</g>
+<!-- I4&#45;&gt;I13 -->
+<g id="edge18" class="edge">
+<title>I4-&gt;I13</title>
+<path fill="none" stroke="black" d="M794.2,-613.91C816.91,-597.87 848.29,-575.7 872.68,-558.47"/>
+<polygon fill="black" stroke="black" points="874.18,-560.84 879.1,-553.94 870.95,-556.27 874.18,-560.84"/>
+<text xml:space="preserve" text-anchor="middle" x="835.5" y="-589.89" font-family="Arial" font-size="11.00">*</text>
+</g>
+<!-- I5&#45;&gt;I2 -->
+<g id="edge20" class="edge">
+<title>I5-&gt;I2</title>
+<path fill="none" stroke="black" d="M582.83,-822.05C560.85,-819.25 535.27,-816 535.27,-816 535.27,-816 274.74,-782 274.74,-782 274.74,-782 239.88,-761.46 210.6,-744.22"/>
+<polygon fill="black" stroke="black" points="212.14,-741.88 203.83,-740.24 209.3,-746.71 212.14,-741.88"/>
+<text xml:space="preserve" text-anchor="middle" x="387.01" y="-800.34" font-family="Arial" font-size="11.00">T</text>
+</g>
+<!-- I5&#45;&gt;I3 -->
+<g id="edge21" class="edge">
+<title>I5-&gt;I3</title>
+<path fill="none" stroke="black" d="M582.72,-752.22C560.76,-700.29 535.27,-640 535.27,-640 535.27,-640 513.92,-555.54 494.58,-479.07"/>
+<polygon fill="black" stroke="black" points="497.41,-478.8 492.73,-471.73 491.98,-480.17 497.41,-478.8"/>
+<text xml:space="preserve" text-anchor="middle" x="538.94" y="-659.21" font-family="Arial" font-size="11.00">F</text>
+</g>
+<!-- I5&#45;&gt;I4 -->
+<g id="edge22" class="edge">
+<title>I5-&gt;I4</title>
+<path fill="none" stroke="black" d="M646.96,-785.49C670.28,-755.08 702.25,-713.38 726.63,-681.59"/>
+<polygon fill="black" stroke="black" points="728.77,-683.4 731.41,-675.34 724.32,-679.99 728.77,-683.4"/>
+<text xml:space="preserve" text-anchor="middle" x="690.88" y="-733.8" font-family="Arial" font-size="11.00">P</text>
+</g>
+<!-- I5&#45;&gt;I5 -->
+<g id="edge23" class="edge">
+<title>I5-&gt;I5</title>
+<path fill="none" stroke="black" d="M600.87,-926.04C601.88,-950.76 606.56,-969.2 614.91,-969.2 622.15,-969.2 626.63,-955.34 628.35,-935.53"/>
+<polygon fill="black" stroke="black" points="631.14,-935.71 628.85,-927.55 625.55,-935.36 631.14,-935.71"/>
+<text xml:space="preserve" text-anchor="middle" x="614.91" y="-972.5" font-family="Arial" font-size="11.00">(</text>
+</g>
+<!-- I5&#45;&gt;I6 -->
+<g id="edge24" class="edge">
+<title>I5-&gt;I6</title>
+<path fill="none" stroke="black" d="M646.97,-897.02C666.19,-940.95 687.21,-989 687.21,-989 687.21,-989 713.29,-1019.89 734.71,-1045.27"/>
+<polygon fill="black" stroke="black" points="732.33,-1046.79 739.63,-1051.1 736.61,-1043.18 732.33,-1046.79"/>
+<text xml:space="preserve" text-anchor="middle" x="690.88" y="-999.91" font-family="Arial" font-size="11.00">a</text>
+</g>
+<!-- I5&#45;&gt;I7 -->
+<g id="edge25" class="edge">
+<title>I5-&gt;I7</title>
+<path fill="none" stroke="black" d="M647.09,-727.94C653.43,-708.01 658.21,-693 658.21,-693 658.21,-693 732.95,-296.83 755.79,-175.74"/>
+<polygon fill="black" stroke="black" points="758.52,-176.38 757.25,-168 753.01,-175.35 758.52,-176.38"/>
+<text xml:space="preserve" text-anchor="middle" x="690.88" y="-533.19" font-family="Arial" font-size="11.00">b</text>
+</g>
+<!-- I14 -->
+<g id="node15" class="node">
+<title>I14</title>
+<polygon fill="#fff8e7" stroke="none" points="731.51,-800.2 731.51,-851.8 795.17,-851.8 795.17,-800.2 731.51,-800.2"/>
+<polygon fill="#ffe4b5" stroke="none" points="732.51,-826 732.51,-850.8 794.17,-850.8 794.17,-826 732.51,-826"/>
+<text xml:space="preserve" text-anchor="start" x="753.62" y="-835.2" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I14</text>
+<text xml:space="preserve" text-anchor="start" x="736.51" y="-809.4" font-family="Arial, Helvetica, sans-serif" font-size="14.00">P → (E•)</text>
+<polygon fill="none" stroke="black" points="731.51,-800.2 731.51,-851.8 795.17,-851.8 795.17,-800.2 731.51,-800.2"/>
+</g>
+<!-- I5&#45;&gt;I14 -->
+<g id="edge19" class="edge">
+<title>I5-&gt;I14</title>
+<path fill="none" stroke="black" d="M646.96,-826C668.95,-826 698.64,-826 722.39,-826"/>
+<polygon fill="black" stroke="black" points="722.32,-828.8 730.32,-826 722.32,-823.2 722.32,-828.8"/>
+<text xml:space="preserve" text-anchor="middle" x="690.88" y="-829.3" font-family="Arial" font-size="11.00">E</text>
+</g>
+<!-- I9&#45;&gt;I2 -->
+<g id="edge27" class="edge">
+<title>I9-&gt;I2</title>
+<path fill="none" stroke="black" d="M282.55,-663.22C261.85,-665.37 238.41,-667.8 238.41,-667.8 238.41,-667.8 224.8,-678.56 209.83,-690.41"/>
+<polygon fill="black" stroke="black" points="208.15,-688.17 203.61,-695.33 211.62,-692.56 208.15,-688.17"/>
+<text xml:space="preserve" text-anchor="middle" x="242.07" y="-671.1" font-family="Arial" font-size="11.00">T</text>
+</g>
+<!-- I9&#45;&gt;I3 -->
+<g id="edge28" class="edge">
+<title>I9-&gt;I3</title>
+<path fill="none" stroke="black" d="M346.78,-595.58C370.2,-547.28 402.28,-481.11 426.64,-430.87"/>
+<polygon fill="black" stroke="black" points="429.16,-432.1 430.13,-423.68 424.12,-429.66 429.16,-432.1"/>
+<text xml:space="preserve" text-anchor="middle" x="387.01" y="-521.36" font-family="Arial" font-size="11.00">F</text>
+</g>
+<!-- I9&#45;&gt;I4 -->
+<g id="edge29" class="edge">
+<title>I9-&gt;I4</title>
+<path fill="none" stroke="black" d="M346.79,-645.3C377.46,-630.87 419.68,-611 419.68,-611 419.68,-611 571.61,-609 571.61,-609 571.61,-609 658.21,-609 658.21,-609 658.21,-609 693.95,-617.92 723.56,-625.32"/>
+<polygon fill="black" stroke="black" points="722.59,-627.96 731.03,-627.18 723.95,-622.53 722.59,-627.96"/>
+<text xml:space="preserve" text-anchor="middle" x="538.94" y="-612.77" font-family="Arial" font-size="11.00">P</text>
+</g>
+<!-- I9&#45;&gt;I5 -->
+<g id="edge30" class="edge">
+<title>I9-&gt;I5</title>
+<path fill="none" stroke="black" d="M346.63,-677.3C401.37,-707.75 514.83,-770.88 574.8,-804.24"/>
+<polygon fill="black" stroke="black" points="573.22,-806.57 581.57,-808.01 575.94,-801.67 573.22,-806.57"/>
+<text xml:space="preserve" text-anchor="middle" x="462.98" y="-768.2" font-family="Arial" font-size="11.00">(</text>
+</g>
+<!-- I9&#45;&gt;I6 -->
+<g id="edge31" class="edge">
+<title>I9-&gt;I6</title>
+<path fill="none" stroke="black" d="M346.66,-733.44C364.49,-775.51 383.34,-820 383.34,-820 383.34,-820 535.27,-967 535.27,-967 535.27,-967 648.79,-1022.49 715.3,-1055.01"/>
+<polygon fill="black" stroke="black" points="713.79,-1057.38 722.21,-1058.38 716.25,-1052.35 713.79,-1057.38"/>
+<text xml:space="preserve" text-anchor="middle" x="538.94" y="-973.88" font-family="Arial" font-size="11.00">a</text>
+</g>
+<!-- I9&#45;&gt;I7 -->
+<g id="edge32" class="edge">
+<title>I9-&gt;I7</title>
+<path fill="none" stroke="black" d="M346.77,-561.81C351.23,-547.78 354.34,-538 354.34,-538 354.34,-538 419.68,-224 419.68,-224 419.68,-224 571.61,-179 571.61,-179 571.61,-179 658.11,-161.77 714.61,-150.51"/>
+<polygon fill="black" stroke="black" points="714.96,-153.29 722.26,-148.99 713.87,-147.8 714.96,-153.29"/>
+<text xml:space="preserve" text-anchor="middle" x="538.94" y="-192.9" font-family="Arial" font-size="11.00">b</text>
+</g>
+<!-- I15 -->
+<g id="node16" class="node">
+<title>I15</title>
+<polygon fill="#e3f2fd" stroke="none" points="419.68,-632.2 419.68,-683.8 506.27,-683.8 506.27,-632.2 419.68,-632.2"/>
+<polygon fill="#bbdefb" stroke="none" points="420.68,-658 420.68,-682.8 505.27,-682.8 505.27,-658 420.68,-658"/>
+<text xml:space="preserve" text-anchor="start" x="424.68" y="-667.2" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I15 (Reduce)</text>
+<text xml:space="preserve" text-anchor="start" x="424.68" y="-641.4" font-family="Arial, Helvetica, sans-serif" font-size="14.00">X → +E•</text>
+<polygon fill="none" stroke="black" points="419.68,-632.2 419.68,-683.8 506.27,-683.8 506.27,-632.2 419.68,-632.2"/>
+</g>
+<!-- I9&#45;&gt;I15 -->
+<g id="edge26" class="edge">
+<title>I9-&gt;I15</title>
+<path fill="none" stroke="black" d="M346.6,-659.58C365.17,-659.32 389.24,-658.99 410.58,-658.7"/>
+<polygon fill="black" stroke="black" points="410.38,-661.51 418.34,-658.6 410.3,-655.91 410.38,-661.51"/>
+<text xml:space="preserve" text-anchor="middle" x="387.01" y="-662.36" font-family="Arial" font-size="11.00">E</text>
+</g>
+<!-- I13&#45;&gt;I13 -->
+<g id="edge34" class="edge">
+<title>I13-&gt;I13</title>
+<path fill="none" stroke="#555555" d="M897.22,-582.55C895.8,-605.58 900.44,-625.6 911.16,-625.6 920.36,-625.6 925.09,-610.82 925.33,-592.04"/>
+<polygon fill="#555555" stroke="#555555" points="928.13,-591.99 925.13,-584.06 922.54,-592.13 928.13,-591.99"/>
+<text xml:space="preserve" text-anchor="middle" x="911.16" y="-628.9" font-family="Arial" font-size="11.00" fill="#555555">*</text>
+</g>
+<!-- I16 -->
+<g id="node17" class="node">
+<title>I16</title>
+<polygon fill="#e3f2fd" stroke="none" points="1019.18,-506.2 1019.18,-557.8 1105.77,-557.8 1105.77,-506.2 1019.18,-506.2"/>
+<polygon fill="#bbdefb" stroke="none" points="1020.18,-532 1020.18,-556.8 1104.77,-556.8 1104.77,-532 1020.18,-532"/>
+<text xml:space="preserve" text-anchor="start" x="1024.18" y="-541.2" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I16 (Reduce)</text>
+<text xml:space="preserve" text-anchor="start" x="1024.18" y="-515.4" font-family="Arial, Helvetica, sans-serif" font-size="14.00">Z → *Z•</text>
+<polygon fill="none" stroke="black" points="1019.18,-506.2 1019.18,-557.8 1105.77,-557.8 1105.77,-506.2 1019.18,-506.2"/>
+</g>
+<!-- I13&#45;&gt;I16 -->
+<g id="edge33" class="edge">
+<title>I13-&gt;I16</title>
+<path fill="none" stroke="black" d="M942.02,-532C961.38,-532 987.12,-532 1009.75,-532"/>
+<polygon fill="black" stroke="black" points="1009.71,-534.8 1017.71,-532 1009.71,-529.2 1009.71,-534.8"/>
+<text xml:space="preserve" text-anchor="middle" x="986.82" y="-535.3" font-family="Arial" font-size="11.00">Z</text>
+</g>
+<!-- I17 -->
+<g id="node18" class="node">
+<title>I17</title>
+<polygon fill="#e3f2fd" stroke="none" points="867.86,-800.2 867.86,-851.8 954.46,-851.8 954.46,-800.2 867.86,-800.2"/>
+<polygon fill="#bbdefb" stroke="none" points="868.86,-826 868.86,-850.8 953.46,-850.8 953.46,-826 868.86,-826"/>
+<text xml:space="preserve" text-anchor="start" x="872.86" y="-835.2" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="14.00">I17 (Reduce)</text>
+<text xml:space="preserve" text-anchor="start" x="872.86" y="-809.4" font-family="Arial, Helvetica, sans-serif" font-size="14.00">P → (E)•</text>
+<polygon fill="none" stroke="black" points="867.86,-800.2 867.86,-851.8 954.46,-851.8 954.46,-800.2 867.86,-800.2"/>
+</g>
+<!-- I14&#45;&gt;I17 -->
+<g id="edge35" class="edge">
+<title>I14-&gt;I17</title>
+<path fill="none" stroke="black" d="M794.91,-826C813.39,-826 837.42,-826 858.75,-826"/>
+<polygon fill="black" stroke="black" points="858.5,-828.8 866.5,-826 858.5,-823.2 858.5,-828.8"/>
+<text xml:space="preserve" text-anchor="middle" x="835.5" y="-829.3" font-family="Arial" font-size="11.00">)</text>
+</g>
+</g>
+</svg>

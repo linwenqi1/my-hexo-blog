@@ -1,18 +1,19 @@
 ---
-title: Lab 10 Dirty COW Attack Lab
+title: Dirty COW Attack Lab
+date: 2025-11-26 20:00:00
 tags:
   - Security
   - Linux
   - Attack
 categories:
-  - Lab Report
+  - Computer Science
 ---
 
 ## Task 1: Modify a Dummy Read-Only File
 
 ### 1. create a dummy file
 
-![](Lab-10-Dirty-COW-Attack/t1_1.png)
+![3](Dirty-COW-Attack/t1_1.png)
 
 we can see that if we try to write to this file as a normal user, we will fail, because the file is only readable to normal users.
 
@@ -101,7 +102,7 @@ madvise: Provides advice to the kernel about how a specific memory region will b
 
 ### 5. Launch the Attack
 
-![](Lab-10-Dirty-COW-Attack/t1_2.png)
+![](Dirty-COW-Attack/t1_2.png)
 
 We are able to see a modified `/zzz` file
 
@@ -109,7 +110,7 @@ We are able to see a modified `/zzz` file
 
 We create a new account called charlie, and we will turn this normal user into root using the Dirty COW attack. Adding a new account can be achieved using the adduser command. After the account is created, a new record will be added to /etc/passwd. See the following
 
-![](Lab-10-Dirty-COW-Attack/t2_1.png)
+![](Dirty-COW-Attack/t2_1.png)
 
 The main thread
 ```c
@@ -178,6 +179,6 @@ gcc cow_attack.c -lpthread
 
 We run the `a.out` and press Ctrl-C after a few seconds
 
-![](Lab-10-Dirty-COW-Attack/t2_2.png)
+![](Dirty-COW-Attack/t2_2.png)
 
 If we switch user to charlie, we are able to see the root shell. If you run the id command, you should be able to see that you have gained the root privilege.
