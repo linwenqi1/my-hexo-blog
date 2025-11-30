@@ -8,7 +8,7 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 # URL 配置
-url: https://linwenqi1.github.io/
+url: https://www.sky-learner.top/
 root: /
 permalink: :year/:month/:title/
 permalink_defaults:
@@ -60,6 +60,9 @@ pagination_dir: page
 
 # 主题配置
 theme: next
+
+sitemap:
+  path: sitemap.xml
 
 deploy:
   type: git

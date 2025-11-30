@@ -79,7 +79,7 @@ reading_progress:
 
 # GitHub Banner
 github_banner:
-  enable: false
+  enable: true
   permalink: https://github.com/linwenqi1
   title: Follow me on GitHub
 
@@ -199,33 +199,14 @@ local_search:
   preload: false
   highlight: false
 
-# 评论系统（以 Disqus 为例）
 comments:
   style: tabs
-  active: 
-  storage: true
-  lazyload: false
-  nav:
-    #disqus:
-    #  text: Disqus
-    #  order: -1
+  active: twikoo
 
-# Disqus
-disqus:
-  enable: false
-  shortname: 
-  count: true
-
-# Gitalk
-gitalk:
-  enable: false
-  github_id: 
-  repo: 
-  client_id: 
-  client_secret: 
-  admin_user: 
-  distraction_free_mode: true
-  language: zh-CN
+twikoo:
+  enable: true
+  visitor: true  # 是否开启文章阅读量统计
+  envId: https://transcendent-pie-929f03.netlify.app/.netlify/functions/twikoo
 
 # 统计分析
 # Google Analytics
@@ -238,6 +219,8 @@ baidu_analytics:
 
 # 腾讯分析
 tencent_analytics:
+
+pjax: true
 
 # 页脚配置
 footer:

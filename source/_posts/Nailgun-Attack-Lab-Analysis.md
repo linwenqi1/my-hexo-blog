@@ -274,7 +274,9 @@ During this lab, what is the base address of Cross Trigger Interface in Raspberr
 
 The global address of the **CTICONTROL** register is calculated as:
 
-$$\begin{aligned} \text{Global Address} &= \text{Base Address} + \text{Offset} \\ &= 0\text{x}40038000 + 0\text{x}0 \\ &= \mathbf{0\text{x}40038000} \end{aligned}$$
+$$
+\begin{aligned} \text{Global Address} &= \text{Base Address} + \text{Offset} \\ &= 0\text{x}40038000 + 0\text{x}0 \\ &= \mathbf{0\text{x}40038000} \end{aligned}
+$$
 
 Therefore, the **CTICONTROL register is located at address 0x40038000.**
 
