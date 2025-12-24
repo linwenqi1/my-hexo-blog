@@ -205,7 +205,7 @@ comments:
 
 twikoo:
   enable: true
-  visitor: true  # 是否开启文章阅读量统计
+  visitor: false
   envId: https://transcendent-pie-929f03.netlify.app/.netlify/functions/twikoo
 
 # 统计分析

@@ -13,7 +13,7 @@ categories:
 
 ### 1. create a dummy file
 
-![3](Dirty-COW-Attack/t1_1.png)
+![](Dirty-COW-Attack/t1_1.png)
 
 we can see that if we try to write to this file as a normal user, we will fail, because the file is only readable to normal users.
 
