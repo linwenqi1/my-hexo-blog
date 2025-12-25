@@ -61,6 +61,16 @@ pagination_dir: page
 # 主题配置
 theme: next
 
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+
 sitemap:
   path: sitemap.xml
 
