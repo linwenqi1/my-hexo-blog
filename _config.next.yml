@@ -108,20 +108,18 @@ font:
 
 # 代码高亮主题
 #codeblock:
-#  theme:
-#    light: default
-#    dark: stackoverflow-dark
+#  engine: prism
 #  prism:
-#    light: prism
-#    dark: prism-dark
+#    light: prism-vsc-dark-plus
+#    dark: prism-vsc-dark-plus
 #  copy_button:
 #    enable: true
-#    show_result: true
+#  show_result: true
 #    style: flat
 # 代码高亮主题 - 只使用 highlight.js
 codeblock:
   theme:
-    light: atom-one-dark              # highlight.js 的亮色主题
+    light: github-dark              # highlight.js 的亮色主题
     dark: monokai-sublime      # highlight.js 的暗色主题
   copy_button:
     enable: true
