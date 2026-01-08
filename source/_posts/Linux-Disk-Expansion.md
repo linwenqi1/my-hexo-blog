@@ -19,7 +19,9 @@ After increasing the virtual disk to 40GB, running `lsblk` showed that the physi
 sda      8:0    0    40G  0 disk 
 └─sda2   8:2    0    30G  0 part /
 ```
+
 <!-- more -->
+
 ## Step 1: Install the Growth Tools
 
 We need `growpart`, a handy utility that can safely extend a partition while the system is running.
