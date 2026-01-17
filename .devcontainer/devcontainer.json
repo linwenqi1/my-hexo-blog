@@ -1,0 +1,40 @@
+{
+  "name": "Hexo Blog Environment (Node 24)",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  
+  "postCreateCommand": "npm install",
+  "postStartCommand": "npm install -g hexo-cli",
+  
+  "forwardPorts": [4000],
+  "portsAttributes": {
+    "4000": {
+      "label": "Hexo Server",
+      "onAutoForward": "openPreview"
+    }
+  },
+  
+  // Git 功能 - 支持部署操作
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {
+      "version": "latest",
+      "ppa": false
+    },
+  },
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "yzhang.markdown-all-in-one",
+        "esbenp.prettier-vscode",
+        "mhutchie.git-graph"  // Git 图形化工具
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "git.enableSmartCommit": true,
+        "git.confirmSync": false
+      }
+    }
+  },
+  
+  "remoteUser": "node"
+}
