@@ -1,6 +1,8 @@
 {
   "name": "Hexo Blog Environment (Node 24)",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   
   "postCreateCommand": "npm install",
   "postStartCommand": "npm install -g hexo-cli",
