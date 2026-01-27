@@ -1,0 +1,31 @@
+# Open Source Software Notice and Attribution
+
+This project is built using Hexo and the NexT theme.
+
+--------------------------------------------------------------------------------
+
+1. Hexo
+   - URL: https://github.com/hexojs/hexo
+   - License: MIT License
+   - Copyright: Copyright (c) 2012-2026 Tommy Chen
+
+2. NexT Theme
+   - URL: https://github.com/next-theme/hexo-theme-next
+   - License: GNU Affero General Public License v3.0 with additional permissions
+   - Copyright: Copyright (c) 2017-2026 NexT
+   - Note: Detailed attribution for NexT is contained in the 'docs/AUTHORS.md' file 
+     of the original repository.
+
+--------------------------------------------------------------------------------
+
+### Mandatory Attributions (per NexT License Section 7b/7c):
+
+In accordance with the terms of the NexT theme license:
+- This work retains the original copyright ownership of NexT where applicable.
+- As required by Section 7(c), any website created, modified, or manipulated 
+  using this work MUST retain the NexT official website link (https://theme-next.js.org) 
+  in the footer section.
+
+--------------------------------------------------------------------------------
+
+This project as a whole is licensed under the GNU Affero General Public License v3.0.
