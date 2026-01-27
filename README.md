@@ -1,5 +1,7 @@
 # My Hexo Blog
-
+[![Hexo](https://img.shields.io/badge/Hexo-8.0+-blue?logo=hexo)](https://hexo.io/)
+[![NexT](https://img.shields.io/badge/NexT-8.27+-orange)](https://theme-next.js.org/)
+[![License](https://img.shields.io/badge/License-AGPL--3.0-green)](./LICENSE)
 ## 📖 About
 
 A personal blog built with [Hexo](https://hexo.io/) and [NexT](https://theme-next.js.org/) theme, focusing on technology sharing and life recording.
@@ -174,7 +176,7 @@ source/_posts/
 Reference images in your post:
 
 ```markdown
-![Image description](image.jpg)
+![Image description](my-post/image.jpg)
 ```
 
 ## 🔌 Plugins
@@ -191,7 +193,7 @@ This blog uses the following Hexo plugins:
 
 ## 📄 License
 
-This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. See the [LICENSE](https://www.google.com/search?q=./LICENSE) file for the full text.
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**. See the [LICENSE](./LICENSE) file for the full text.
 
 ## 🤝 Contributing
 
@@ -207,4 +209,8 @@ Contributions, issues, and feature requests are welcome!
 This project incorporates and builds upon the following open-source software:
 
 - **[Hexo](https://github.com/hexojs/hexo)**: Licensed under the **MIT License**. Copyright (c) 2012-2026 Tommy Chen.
+
 - **[NexT Theme](https://github.com/next-theme/hexo-theme-next)**: Licensed under the **AGPL-3.0 License**. Copyright (c) 2017-2026 NexT Team.
+
+---
+⭐ If this project helps you, please give it a star!
