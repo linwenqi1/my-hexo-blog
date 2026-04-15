@@ -12,6 +12,8 @@ categories:
 
 在远程开发（Remote-SSH, WSL, Containers）环境下，许多开发者会发现 **C/C++ (ms-vscode.cpptools)** 插件的 IntelliSense（智能感知）功能无法正常工作。表现为代码补全消失、符号跳转失效或语法检查无响应。
 
+<!-- more -->
+
 经过排查，这一问题的根源在于 VS Code 远程架构对设置作用域（Settings Scopes）的处理机制，以及插件在“配置真空”状态下的降级策略。
 
 ## 1. 官方文档的故障排查依据
