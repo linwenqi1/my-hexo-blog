@@ -6,7 +6,7 @@
 
 A personal blog built with [Hexo](https://hexo.io/) and [NexT](https://theme-next.js.org/) theme, focusing on technology sharing and life recording.
 
-- **Live Site**: https://www.sky-learner.top/
+- **Live Site**: https://blog.qirenova.com/
 - **Author**: Lin Wenqi
 - **Theme**: NexT (Gemini Scheme)
 
@@ -120,7 +120,7 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-url: https://www.sky-learner.top/
+url: https://blog.qirenova.com/
 ```
 
 ### Theme Configuration
